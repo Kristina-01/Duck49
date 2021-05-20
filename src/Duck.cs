@@ -113,6 +113,7 @@ namespace Duck.src
                         typeDuck = (TypeDuck)random.Next(0, 5);
                         break;
                     case 1:
+
                         can = (Can)GetNumCun();//random.Next(0, 5);
                         break;
                 }

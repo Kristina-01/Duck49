@@ -14,7 +14,7 @@ namespace Duck.src
     public class Territory
     {
         public List<Duck> lsit = new List<Duck>();
-        public List<Hunter> hunters = new List<Hunter>();
+        public List<CountDuck> hunters = new List<CountDuck>();
 
 
         public Territory(int count = 0, List<CountDuck> ListCd = null)
@@ -24,7 +24,7 @@ namespace Duck.src
             {
                 foreach(var el in ListCd)
                 {
-                    hunters.Add(new Hunter() { from = el.from, to = el.to });
+                    hunters.Add(new CountDuck() { from = el.from, to = el.to });
                 }
             }
 
